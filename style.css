@@ -15,7 +15,7 @@
   .announcement-text p {
     font-family: "Arquitecta", sans-serif;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1.3px;
     font-size: 0.9rem;
     line-height: 1.5;
     min-height: 1.5rem;
@@ -105,7 +105,7 @@
 
     .announcement-text {
         vertical-align: middle; /* Vertically align the text */
-        padding: 0 6rem;
+        padding: 0 2rem;
     }
 
     .announcement-text p {

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.annoucement-main {
+    background-color: rgb(195,150,117);
+  }
+  .annoucement-main-padding {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0.1rem 5rem;
+  }
+  .announcement-text p {
+    font-family: "Arquitecta", sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    min-height: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    white-space: nowrap; /* This should be changed */
+    overflow: hidden;
+  }
+  
+  .announcement-bar {
+    text-align: center;
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+    height: 2.7rem; /* Set the desired height */
+    line-height: 2.7rem; /* Matches the height to vertically center */
+}
+  
+.announcement-text {
+    display: inline-block;
+    vertical-align: middle; /* Align the text container vertically */
+}
+  
+  .controls {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block;
+  }
+  
+  .control-icon {
+    width: 24px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media only screen and (max-width: 768px) and (min-width: 480px) {
+
+    .announcement-text {
+        display: inline-block; /* Use inline-block for text container */
+        vertical-align: middle; /* Vertically align the text */
+        text-align: center; /* Center text horizontally */
+    }
+
+    .announcement-text p {
+        white-space: normal; /* Allow text to wrap */
+        line-height: 1.5; /* Adjust line-height for better readability */
+        margin: 0; /* Remove margin */
+        display: inline-block; /* Ensure each paragraph is inline-block */
+    }
+}
+
+
+
+
+  @media only screen and (max-width: 480px) and (min-width: 320px) {
+    :root {
+      font-size: 40%;
+    }
+    .announcement-bar {
+        height: 3.2rem; /* Maintain height for consistent layout */
+        line-height: 3.2rem; /* Match line-height to height for vertical centering */
+    }
+
+    .announcement-text {
+        vertical-align: middle; /* Vertically align the text */
+        padding: 0 6rem;
+    }
+
+    .announcement-text p {
+        white-space: normal; /* Allow text to wrap */
+        line-height: 1.5; /* Adjust line-height for better readability */
+        margin: 0; /* Remove margin */
+        display: inline-block; /* Ensure each paragraph is inline-block */
+    }
+}
